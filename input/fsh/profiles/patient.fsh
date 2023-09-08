@@ -14,25 +14,25 @@ Description: "DHIS2 HIV sPatient profile"
 
 * extension contains 
    PatientSexAtBirth named patientSexAtBirth 1..1 and 
-   HIVEnrollmentOrgUnit named hivEnrollmentOrgUnit 0..1
-   keyPopGroup named keyPopGroup 0..*
+   HIVEnrollmentOrgUnit named hivEnrollmentOrgUnit 0..1 and
+   KeyPopGroup named keyPopGroup 0..*
 
 Extension: PatientSexAtBirth
 Id: PatientSexAtBirth
-Title: ""
+Title: "Patient Sex at Birth"
 Description: "Sex at Birth."
 * value[x] only boolean
 
 
 Extension: HIVEnrollmentOrgUnit
 Id: HIVEnrollmentOrgUnit
-Title: ""
+Title: "HIV Enrollment Organization Unit"
 Description: "Current Enrollment Org Unit."
 * value[x] only Reference(OrgUnitOrganization)
 
 
 Extension: KeyPopGroup
 Id: KeyPopGroup
-Title: ""
+Title: "Key Population Group"
 Description: "Key Pop group."
 * value[x] only Coding
