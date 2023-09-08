@@ -37,9 +37,9 @@ Logical: HIVFollowUp
 
 Logical: HIVView
 
-* CaseReport 0..1 HIVCaseData
-* Visit 0..* 
-* FollowUp
+* CaseReport 0..1 HIVCaseData ""
+* Visit 0..* date ""
+* FollowUp 0..* date ""
 
 * dateHIVPositiveTest 1..1 date "Date of documented positive HIV test" 
 * typeOfTesting 0..1 Coding "Type of community-level testing"

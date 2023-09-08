@@ -21,7 +21,7 @@ Parent: Observation
 
 Extension: FacilityLevelTestingEntryPoint
 Id: FacilityLevelTestingEntryPoint
-Title: ""
+Title: "Facility Level Testing Entry Point"
 Description: "Facility Level Testing Entry Point."
 * value[x] only Coding 
 //* valueCoding  from ValueSetXXXXX // This is how we will add the valueset
