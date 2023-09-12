@@ -73,8 +73,8 @@ dependencies:
 # neither do we; the value can be a single profile URL or an array
 # of profile URLs.
 #global:
-#  Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
-#  Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
+  #Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
+ # Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
 
 # The resources property corresponds to IG.definition.resource.
 # SUSHI can auto-generate all of the resource entries based on

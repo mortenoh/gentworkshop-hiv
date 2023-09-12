@@ -1,7 +1,7 @@
 Profile: DHIS2HIVBasePatient
 Parent: DHIS2BasePatient
 Title: "DHIS2 HIV Patient profile"
-Description: "DHIS2 HIV sPatient profile"
+Description: "DHIS2 HIV patient profile."
 
 
 * identifier ^slicing.discriminator.type = #pattern
